@@ -1,7 +1,7 @@
 // const { domainToASCII } = require("url");
 
 /* Global Variables */
-const baseUrl='https://api.openweathermap.org/data/2.5/weather?zip='
+const baseUrl='http://api.openweathermap.org/data/2.5/weather?zip='
 const apiKey = '&appid=004635ad189ffa4f3eec08158bb2e843&units=imperial'
 //http://api.openweathermap.org/data/2.5/weather?zip={zip}&appid={apiKey}
 const zipInput = document.getElementById('zip');
